@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MY FACEBOOK</title>
+  <link rel="stylesheet" href="facebook-login-page.css" />
+  <link rel="stylesheet" href="bootstrap.min.css" />
+</head>
+
+<body id="bodyInheriter" style="background-color:#edf0f5;height:600px;width:100%;height:900px">
+
+  <div>
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h1 class="header-logo">facebook</h1>
+          </div>
+          <div class="col-md-5">
+            <form class="header_form">
+              <table>
+                <tbody>
+                  <tr>
+                    <td><label for="email">Email or Phone </label></td>
+                    <td><label for="pass">Password</label></td>
+                  </tr>
+                  <tr>
+                    <td><input type="email" /></td>
+                    <td><input type="password" /></td>
+                    <td><input type="submit" value="login" /></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>
+                      <div><a href="#">Forgot account?</a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="appBody" id="appBody">
+        <!--use hyphen in html -->
+        <div class="container body-container">
+          <div class="row">
+            <div class="col-md-7">
+              <div>
+                <h2 class="connect">
+                  Connect with friends and the<br />
+                  world around you on Facebook.
+                </h2>
+              </div>
+              <div class="line">
+                <img src="./images/seephotosupdatesimage-fb.png" alt="" />
+                <span class="left-div"><b>See photos and updates</b></span>
+                <span>from friends in News Feed.</span>
+              </div>
+              <div class="line">
+                <img src="./images/whatsnewimage-fb.png" alt="" />
+                <span class="left-div"><b> Share what's new </b></span>
+                <span>in your life on your Timeline.</span>
+              </div>
+              <div class="line">
+                <img src="./images/findoutmoreimage-fb.png" alt="" />
+                <span class="left-div"><b> Find more </b> </span>
+                <span>of what you're looking for with Facebook Search..</span>
+              </div>
+            </div>
+
+            <div class="col-md-5" id="deep" line-height: 120%;>
+              <h2>Sign Up</h2>
+              <h4>It’s quick and easy.</h4>
+              <form action="#">
+                <div class="row form-group">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="First name" class="form-control" />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Last name" class="form-control" float:left />
+                  </div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <input type="text" placeholder="Mobile number or email" class="form-control" />
+                  </div>
+                </div><div class="row form-group">
+                  <div class="col-md-12">
+                    <input type="password" placeholder="New password" class="form-control" />
+                  </div>
+                </div>
+
+                <p>Birthday</p>
+                <select aria-label="Month" name="birthday_month" id="month" title="Month" class="selection">
+                  <option value="0">Month</option>
+                  <option value="1">Jan</option>
+                  <option value="2">Feb</option>
+                  <option value="3">Mar</option>
+                  <option value="4">Apr</option>
+                  <option value="5">May</option>
+                  <option value="6">Jun</option>
+                  <option value="7">Jul</option>
+                  <option value="8">Aug</option>
+                  <option value="9">Sep</option>
+                  <option value="10" selected="1">Oct</option>
+                  <option value="11">Nov</option>
+                  <option value="12">Dec</option>
+                </select>
+                <select aria-label="Day" name="birthday_day" id="day" title="Day" class="_5dba _8esg">
+                  <option value="0">Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17" selected="1">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+                <select aria-label="Year" name="birthday_year" id="year" title="Year" class="_5dba _8esg">
+                  <option value="0">Year</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                  <option value="1998">1998</option>
+                  <option value="1997">1997</option>
+                  <option value="1996">1996</option>
+                  <option value="1995">1995</option>
+                  <option value="1994" selected="1">1994</option>
+                  <option value="1993">1993</option>
+                  <option value="1992">1992</option>
+                  <option value="1991">1991</option>
+                  <option value="1990">1990</option>
+                  <option value="1989">1989</option>
+                  <option value="1988">1988</option>
+                  <option value="1987">1987</option>
+                  <option value="1986">1986</option>
+                  <option value="1985">1985</option>
+                  <option value="1984">1984</option>
+                  <option value="1983">1983</option>
+                  <option value="1982">1982</option>
+                  <option value="1981">1981</option>
+                  <option value="1980">1980</option>
+                  <option value="1979">1979</option>
+                  <option value="1978">1978</option>
+                  <option value="1977">1977</option>
+                  <option value="1976">1976</option>
+                  <option value="1975">1975</option>
+                  <option value="1974">1974</option>
+                </select>
+                <div>
+                  <p>Gender</p>
+                </div>
+                <div>
+                  <input type="radio" id="rads" name="gender" />
+                  <label for="">Female</label>
+                  <input type="radio" id="rads" name="gender" />
+                  <label for="">Male</label>
+                  <input type="radio" id="rads" name="gender" />
+                  <label for="">Custom</label>
+                </div>
+
+                <div>
+                  <p class="terms">
+                    By clicking Sign Up, you agree to our
+                    <a href="/legal/terms/update" id="terms-link" target="_blank" rel="nofollow">Terms</a>,
+                    <a href="/about/privacy/update" id="privacy-link" target="_blank" rel="nofollow">Data Policy</a>
+                    and </br><a href="/policies/cookies/" id="cookie-use-link" target="_blank"
+                      rel="nofollow">CookiesPolicy</a>.
+                    You may receive SMS Notifications from us and</br>can opt out any time.</p>
+                  <button class="btn btn-success" id="sign">Sign Up</button>
+                </div>
+              </form>
+              <div class="create">
+                <a href="/pages/create/?ref_type=registration_form">Create a
+                  Page</a> for a celebrity, band or business.</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="background-color: #fff; width:100%; min-height:90px;">
+      <div class="container">
+        <div class="row" id="footer">
+          <div class="col-md-12">
+            <div>
+              <div id="pageFooter" data-referrer="page_footer">
+                <ul class="uiList " data-nocookies="1">
+                  <li>English (US)</li>
+                  <li><a class="_sv4" dir="ltr" href="https://fr-fr.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;fr_FR&quot;, &quot;en_US&quot;, &quot;https:\/\/fr-fr.facebook.com\/&quot;, &quot;www_list_selector&quot;, 0); return false;"
+                      title="French (France)">Français (France)</a></li>
+                  <li><a class="_sv4" dir="rtl" href="https://ar-ar.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ar_AR&quot;, &quot;en_US&quot;, &quot;https:\/\/ar-ar.facebook.com\/&quot;, &quot;www_list_selector&quot;, 1); return false;"
+                      title="Arabic">العربية</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://pt-br.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;pt_BR&quot;, &quot;en_US&quot;, &quot;https:\/\/pt-br.facebook.com\/&quot;, &quot;www_list_selector&quot;, 2); return false;"
+                      title="Portuguese (Brazil)">Português (Brasil)</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://es-la.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;en_US&quot;, &quot;https:\/\/es-la.facebook.com\/&quot;, &quot;www_list_selector&quot;, 3); return false;"
+                      title="Spanish">Español</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://tr-tr.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;tr_TR&quot;, &quot;en_US&quot;, &quot;https:\/\/tr-tr.facebook.com\/&quot;, &quot;www_list_selector&quot;, 4); return false;"
+                      title="Turkish">Türkçe</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://sw-ke.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;sw_KE&quot;, &quot;en_US&quot;, &quot;https:\/\/sw-ke.facebook.com\/&quot;, &quot;www_list_selector&quot;, 5); return false;"
+                      title="Swahili">Kiswahili</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://de-de.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;de_DE&quot;, &quot;en_US&quot;, &quot;https:\/\/de-de.facebook.com\/&quot;, &quot;www_list_selector&quot;, 6); return false;"
+                      title="German">Deutsch</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://zh-cn.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;zh_CN&quot;, &quot;en_US&quot;, &quot;https:\/\/zh-cn.facebook.com\/&quot;, &quot;www_list_selector&quot;, 7); return false;"
+                      title="Simplified Chinese (China)">中文(简体)</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://it-it.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;it_IT&quot;, &quot;en_US&quot;, &quot;https:\/\/it-it.facebook.com\/&quot;, &quot;www_list_selector&quot;, 8); return false;"
+                      title="Italian">Italiano</a></li>
+                  <li><a class="_sv4" dir="ltr" href="https://hi-in.facebook.com/"
+                      onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;hi_IN&quot;, &quot;en_US&quot;, &quot;https:\/\/hi-in.facebook.com\/&quot;, &quot;www_list_selector&quot;, 9); return false;"
+                      title="Hindi">हिन्दी</a></li>
+                  <li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog"
+                      ajaxify="/settings/language/language/?uri=https%3A%2F%2Fhi-in.facebook.com%2F&amp;source=www_list_selector_more"
+                      href="#" title="Show more languages"><i class="img sp_tyDKrVS4a5J sx_409b10"></i></a></li>
+                </ul>
+                <div id="contentCurve"></div>
+                <div>
+                  <ul class="pagelinks">
+                    <li><a href="/r.php" title="Sign Up for Facebook">Sign Up</a></li>
+                    <li><a href="/login/" title="Log into Facebook">Log In</a></li>
+                    <li><a href="https://messenger.com/" title="Check out Messenger.">Messenger</a></li>
+                    <li><a href="/lite/" title="Facebook Lite for Android.">Facebook Lite</a></li>
+                    <li><a href="/directory/people/" title="Browse our people directory.">People</a></li>
+                    <li><a href="/directory/pages/" title="Browse our pages directory.">Pages</a></li>
+                    <li><a href="/pages/category/">Page Categories</a></li>
+                    <li><a href="/places/" title="Check out popular places on Facebook.">Places</a></li>
+                    <li><a href="/games/" title="Check out Facebook games.">Games</a></li>
+                    <li><a href="/directory/places/" title="Browse our places directory.">Locations</a></li>
+                    <li><a href="/marketplace/directory/"
+                        title="Browse our marketplace product directory.">Marketplace</a>
+                    </li>
+                    <li><a href="/directory/groups/" title="Browse our Groups directory.">Groups</a></li>
+                    <li><a
+                        href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2F&amp;h=AT15c-x2n3nFphJmCMWW-haXsJMYz1G4LSqATv3IYt-F_sW7TTuahQ9qtbT3JmRDnBG9ekule6CPcb_-hGyG9misLJHE6owX6UTIFTa6DaCbXiGf6J_5DDHTIwmohh2pZsROFkRAq4VwxHoG0pCrsg"
+                        title="Check out Instagram" target="_blank" rel="noopener nofollow"
+                        data-lynx-mode="asynclazy">Instagram</a>
+                    </li>
+                    <li><a href="/local/lists/245019872666104/" title="Browse our Local Lists directory.">Local</a></li>
+                    <li><a href="/fundraisers/" title="Donate to worthy causes.">Fundraisers</a></li>
+                    <li><a href="/biz/directory/" title="Browse our Facebook Services directory.">Services</a></li>
+                    <li><a href="/facebook" accesskey="8"
+                        title="Read our blog, discover the resource center, and find job opportunities.">About</a></li>
+                    <li><a href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;extra_1=auto"
+                        title="Advertise on Facebook.">Create Ad</a></li>
+                    <li><a href="/pages/create/?ref_type=site_footer" title="Create a Page">Create Page</a></li>
+                    <li><a href="https://developers.facebook.com/?ref=pf"
+                        title="Develop on our platform.">Developers</a>
+                    </li>
+                    <li><a href="/careers/?ref=pf"
+                        title="Make your next career move to our awesome company.">Careers</a>
+                    </li>
+                    <li><a data-nocookies="1" href="/privacy/explanation"
+                        title="Learn about your privacy and Facebook.">Privacy</a>
+                    </li>
+                    <li><a href="/policies/cookies/" title="Learn about cookies and Facebook."
+                        data-nocookies="1">Cookies</a></li>
+                    <li><a class="_41ug" data-nocookies="1" href="https://www.facebook.com/help/568137493302217"
+                        title="Learn about Ad Choices.">Ad Choices<i class="img sp_lFwffOkkE26 sx_dba3da"></i></a></li>
+                    <li><a data-nocookies="1" href="/policies?ref=pf" accesskey="9"
+                        title="Review our terms and policies.">Terms</a>
+                    </li>
+                    <li><a href="/help/?ref=pf" accesskey="0" title="Visit our Help Center.">Help</a></li>
+                    <li><a accesskey="6" class="accessible" href="/settings"
+                        title="View and edit your Facebook settings.">Settings</a></li>
+                    <li><a accesskey="7" class="accessible" href="/allactivity?privacy_source=activity_log_top_menu"
+                        title="View your activity log">Activity Log</a></li>
+                  </ul>
+                </div>
+                <div class="copyrights">
+                  <div><span> Facebook © 2019</span></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
