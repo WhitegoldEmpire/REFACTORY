@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="greeting()">change text</button>
+    <p id="para">hello</p>
+    <h2 class="heading">0</h2>
+    <h2 class="heading">1</h2>
+    <h2 class="heading">2</h2>
+
+    <script>
+        function buttonaction() {
+            let paragraph = document.getElementById("para");
+            paragraph.innerHTML += '<h1> welcome</h1>'
+
+            var hdng = document.getElementsByTagName("h2");
+
+            hdng[0].innerHTML += '<b>ZERO</b>'
+            hdng[2].innerHTML += '<b>byebye</b>'
+            hdng[1].innerHTML += '<b>bye</b>'
+        }
+
+        const greeting = () => {
+            let paragraph = document.getElementById("para");
+            if (paragraph.innerText === 'hello') {
+                paragraph.innerText = "guten morgen"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
