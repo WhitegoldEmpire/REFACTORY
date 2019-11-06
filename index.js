@@ -18,3 +18,8 @@ app.get('/', (req,res) =>{
   res.send('Hello World')
 }
 )
+//a path displaying the about us page
+app.get('/about', (req, res) => {
+  res.send('This is about us page')
+}
+)
