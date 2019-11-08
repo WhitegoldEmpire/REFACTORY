@@ -1,3 +1,7 @@
+
+app.set('view engine', 'pug')
+app.set('views', 'views')
+
 const express = require("express");
 const app = express();
 /* app.listen(81, function() {
@@ -43,10 +47,15 @@ app.get('/users/Racheal', (req, res) => {
   res.send('Hellow' + req.paraams.name)
 })
 
+app.get('/first-templete', (req, res, next) => {
+  //user templete to display 
+  console.log("Query params", req.query)
+  res.render('index')
+})
 
 //write an error page
 app.get('*', (req, res) => {
-  res.send('<b style="align-center">Error 400, please check your internet connection</b>')
+  res.send('<b align="center">Error 400, please check your internet connection</b>')
 })
 
 //ASSIGNMENT:
