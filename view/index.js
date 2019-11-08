@@ -4,6 +4,9 @@
 import express from 'express' */
 
 // using v8 version module
+const bodyParser = require(‘body - parser’)
+app.use(bodyParser.urlencoded({ extended: true }))
+
 const express = require('express')
 const path = require('express')
 const app = express()
@@ -44,8 +47,9 @@ app.get('/login', (req, res, next) => {
   res.render('login')
 })
 app.get('/first-templete', (req, res, next) => {
-  //user templete to display 
-  console.log("Query params", req.query)
+  //user template to display 
+  //console.log('body', req.query);
+  // console.log("Query params", req.query)
   res.render('index')
 })
 app.get('/about', (req, res) => {
