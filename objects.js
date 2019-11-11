@@ -1,30 +1,31 @@
+import { log } from "util";
+
 /*methods of creating objectExpression
 1. literal method
 2.constructor METHOD
 3.FACTORY METHOD
  */
-
-
-/* function phone(model, brand, color,batteryLife,category) {
-    this.model = model;
-    this.brand = brand;
-    this.color = color;
-    this.batteryLife = batteryLife;
-    this.category = category;
+/*
+function phone(model, brand, color, batteryLife, category) {
+  this.model = model;
+  this.brand = brand;
+  this.color = color;
+  this.batteryLife = batteryLife;
+  this.category = category;
 }
 
-let PHONE1 = new phone("A-01","itel", "black", "2000hrs", "katorch");
+let PHONE1 = new phone("A-01", "itel", "black", "2000hrs", "katorch");
 let PHONE2 = new phone("GM216", "Iphone", "roseGold", "4000hrs", "smart");
 
-console.log(PHONE1); */
+console.log(PHONE1);
 
 //CREATE MULTIPLE OBJECTS USING CONSTRUCTOR METHOD
 function woman(figure, age, color, occupation, name) {
-    this.figure = figure;
-    this.age = age;
-    this.color = color;
-    this.occupation = occupation;
-    this.name = name;
+  this.figure = figure;
+  this.age = age;
+  this.color = color;
+  this.occupation = occupation;
+  this.name = name;
 }
 
 let WHITEGOLD = new woman("2", "23", "chocolate", "doctor", "racheal");
@@ -45,18 +46,50 @@ console.log(WHITEGOLD, SANDRA, CHRISTINE);
 // }
 // }
 
-
 // digest(){
 //         console.log("iam digesting")
 //     }
 
 class Person {
-    constructor(givenName, passedAge, gender) {
-        this.name = givenName;
-        this.age = passedAge;
-        this.gender = gender;
-    }
-
+  constructor(givenName, passedAge, gender) {
+    this.name = givenName;
+    this.age = passedAge;
+    this.gender = gender;
+  }
 }
 let shayo = new Person("Ahmed Shayo", 26, "male");
 console.log(shayo);
+
+function girl(cosmetic, age, favcolor, phone) {
+  this.cosmetic = true;
+  this.age = age;
+  this.favcolor = favcolor;
+  this.phone = phone;
+}
+
+let Goretti = new girl("true", "29", "pink", "itel");
+console.log(Goretti);*/
+
+//11th november
+class Car {
+  constructor(gcolor, gspeed) {
+    this.color = gcolor;
+    this.speed = gspeed;
+  }
+
+  ignite() {
+    console.log("iam igniting");
+  }
+  start() {
+    console.log("iam starting");
+  }
+  break() {
+    console.log("iam breaking");
+  }
+  stop() {
+    console.log("iam stoping");
+  }
+}
+
+let benz = new Car("red", 190);
+console.log(benz.color);
