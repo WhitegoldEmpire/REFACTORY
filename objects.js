@@ -1,4 +1,3 @@
-import { log } from "util";
 
 /*methods of creating objectExpression
 1. literal method
