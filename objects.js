@@ -69,7 +69,9 @@ function girl(cosmetic, age, favcolor, phone) {
 let Goretti = new girl("true", "29", "pink", "itel");
 console.log(Goretti);*/
 
+
 //11th november
+
 class Car {
   constructor(gcolor, gspeed) {
     this.color = gcolor;
@@ -88,6 +90,38 @@ class Car {
   stop() {
     console.log("iam stoping");
   }
+}
+
+let benz = new Car("red", 190);
+console.log(benz.color);
+
+//refactory rural devlopment bank
+class Account {
+    constructor(gaccountName, gaccountType, gaccountBalance) {
+        this.accountName = gaccountName;
+        this.accountType = gaccountType;
+        this.accountBalance = gaccountBalance;
+    }
+
+    creditAccount(amount) {
+        if this.accountBalance
+        this.accountBalance = this.accountBalance - amount ;
+        console.log('you have withdrawn ...',amount);
+
+        if this.accountBalance = this.accountBalance - amount >50; 
+        return ('you have exceeded the minimal withdraw amount ...')
+    }
+
+    debitAccount(amount) {
+        this.accountBalance = this.accountBalance + amount;
+        console.log();
+    }
+    deleteAccount() {
+        console.log("iam breaking");
+    }
+    checkBalance() {
+        console.log("iam stoping");
+    }
 }
 
 let benz = new Car("red", 190);
