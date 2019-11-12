@@ -9,6 +9,10 @@ const app = express();
 // });
 // or*/
 
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
 app.listen(3100, () => {
   console.log("listening on 3100");
 });
@@ -20,6 +24,7 @@ mongoose.connect("mongodb://localhost:27017/node-demo");
 app.get("/", function (req, res) {
   res.send("Hello World");
 });
+
 //assignment
 //read about require, event driven programming, and Express in js
 
@@ -72,3 +77,5 @@ var nameSchema = new mongoose.Schema({
 
 var User = mongoose.model("User", nameSchema);
 
+//ASSIGNMENT
+//WHAT IS A PROMISE IN NODE
