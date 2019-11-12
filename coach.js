@@ -54,3 +54,32 @@ for (let a = 1; a <=100; a++)
 { // shows 0, then 1, then 2
   console.log(a);} 
   */
+
+
+//12TH NOVEMBER 2019 
+//1. ARRRAYS LITERAL 
+let marks = [90, 80, 45, 79]
+console.log('you scored', 90, 'in mathematics');
+//pop method
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();
+
+//push method
+
+//filter method
+
+
+//spread operator
+let vowels = ['a', 'e', 'i', 'o', 'u']
+let consonants = ['b', 'c', 'd', 'f', 'g', 'h']
+let alpha = [...vowels, ...consonants]
+console.log(alpha.sort());
+//split operator
+//slice operator
+//stack
+
+// lists
+
+//
+
+
