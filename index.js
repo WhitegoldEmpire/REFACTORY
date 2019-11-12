@@ -79,3 +79,14 @@ var User = mongoose.model("User", nameSchema);
 
 //ASSIGNMENT
 //WHAT IS A PROMISE IN NODE
+
+app.post("/addname", (req, res) => {
+  var myData = new User(req.body);
+  myData.save()
+   mongo .then(item => {
+      res.send("item saved to database");
+    })
+    .catch(err => {
+      res.status(400).send("unable to save to database");
+    });
+});
